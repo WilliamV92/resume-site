@@ -3,6 +3,9 @@ html
 {
     background-image: url(assets/images/architecture-black-and-white-buildings-804915.jpg);
     background-attachment: scroll;
-    background-repeat: no-repeat;
+    background-repeat: round;
     background-size: contain;
+    height: 100%;
+    width: 100%;
+    margin: 0;
 }
