@@ -12,5 +12,6 @@ script:
 deploy:
   skip_cleanup: true
   provider: firebase
+  project: "resume-site-46fc4"
   token:
     secure: $FIREBASE_TOKEN
