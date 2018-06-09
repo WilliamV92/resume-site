@@ -10,5 +10,7 @@ script:
   - ng build --prod
 install:
   - npm install -g firebase-tools
+deploy:
+  skip_cleanup: true
 after_success:
   - firebase deploy --project resume-site-46fc4 --token $FIREBASE_TOKEN
