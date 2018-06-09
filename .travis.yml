@@ -8,7 +8,7 @@ before_script:
   - npm install -g @angular/cli
 script:
   - npm install
-  - ng build --prod --aot
+  - ng build --prod
 install:
   - npm install -g firebase-tools
 deploy:
