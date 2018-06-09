@@ -4,8 +4,6 @@ node_js:
 branches:
   only:
     - master
-deploy:
-  skip_cleanup: true
 before_script:
   - npm install -g @angular/cli
 script:
