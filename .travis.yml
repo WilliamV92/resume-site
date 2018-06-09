@@ -10,4 +10,4 @@ before_script:
 script:
  - ng build --prod --aot
 after_success:
- - firebase deploy --token $iN6MMnOxLgAWwwFmCrJdY8g_H7DZo1yTo5MHIH_lLs8
+ - firebase deploy --token $FIREBASE_TOKEN
