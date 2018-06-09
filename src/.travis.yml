@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+ — “10.4.0”
+script:
+ — echo “Deploy!!”
+install:
+ — npm install -g firebase-tools
+after_success:
+ — firebase deploy — project resume-site-46fc4 — token $iN6MMnOxLgAWwwFmCrJdY8g_H7DZo1yTo5MHIH_lLs8
