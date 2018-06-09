@@ -13,10 +13,8 @@ script:
 install:
   - npm install -g firebase-tools
 deploy:
+  provider: firebase
+  token:
+    secure: $FIREBASE_TOKEN
+  project: "resume-site"
   skip_cleanup: true
-  - provider: firebase
-    token:
-      secure: $FIREBASE_TOKEN
-    project: "resume-site"
-    on:
-      branch: master
