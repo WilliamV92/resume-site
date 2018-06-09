@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+html
+{
+    background-image: url(assets/images/architecture-black-and-white-buildings-804915.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
