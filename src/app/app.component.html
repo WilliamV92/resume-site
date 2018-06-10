@@ -1,20 +1,35 @@
 <div class="main-container">
-    <div class="banner-container">
-        <h1>William Vukasovic</h1>
+    <div class="fixed-container">
+        <div class="banner-container">
+            <h1>William Vukasovic</h1>
+            <h2>Software Developer</h2>
+        </div>
+        <div class="link-container">
+            <nav>
+                <a href="#home">Home</a>
+            </nav>
+            <nav>
+                <a href="#about">About Me</a>
+            </nav>
+            <nav>
+                <a href="#projects">Projects</a>
+            </nav>
+        </div>
     </div>
-    <div class="link-container">
-        <nav>
-            <a routerLink="/home">Home</a>
-        </nav>
-        <nav>
-            <a routerLink="/about">About Me</a>
-        </nav>
-        <nav>
-            <a routerLink="/projects">Projects</a>
-        </nav>
-    </div>
-    <div class="router-container">
-        <router-outlet></router-outlet>
-    </div>
+    <a id="home">
+        <div class="home-container">
+            <app-home></app-home>
+        </div>
+    </a>
+    <a id="about">
+        <div class="about-container">
+            <app-about-me></app-about-me>
+        </div>
+    </a>
+    <a id="projects">
+        <div class="projects-container">
+            <app-projects></app-projects>
+        </div>
+    </a>
 </div>
 
