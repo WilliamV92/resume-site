@@ -29,6 +29,7 @@
 .content-container
 {
     margin-top: 100px;
+    height: 100%;
 }
 
 .banner-container h1,h2
@@ -42,6 +43,42 @@
     position: relative;
     top: -100px;
     visibility: hidden;
+}
+
+.bg1
+{
+    height: 100%;
+    background-image: url(../assets/images/architecture-black-and-white-buildings-804915.jpg)
+}
+
+.bg2
+{
+    height: 100%;
+    background-image: url(../assets/images/andrew-gloor-576199-unsplash.jpg)
+}
+
+.bg3
+{
+    height: 100%;
+    background-image: url(../assets/images/luca-bravo-696899-unsplash.jpg)
+}
+
+.home-container
+{
+    height: 600px;
+    background-color: black;
+}
+
+.about-container
+{
+    height: 600px;;
+    background-color: black;
+}
+
+.projects-container
+{
+    height: 600px;
+    background-color: black;
 }
 
 a
