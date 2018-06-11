@@ -63,6 +63,12 @@
     background-image: url(../assets/images/luca-bravo-696899-unsplash.jpg)
 }
 
+.bg4
+{
+    height: 100%;
+    background-image: url(../assets/images/liz-weddon-598028-unsplash.jpg);
+}
+
 .home-container
 {
     height: 600px;
