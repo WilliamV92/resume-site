@@ -45,46 +45,25 @@
     visibility: hidden;
 }
 
-.bg1
-{
-    height: 100%;
-    background-image: url(../assets/images/architecture-black-and-white-buildings-804915.jpg)
-}
-
-.bg2
-{
-    height: 100%;
-    background-image: url(../assets/images/andrew-gloor-576199-unsplash.jpg)
-}
-
-.bg3
-{
-    height: 100%;
-    background-image: url(../assets/images/luca-bravo-696899-unsplash.jpg)
-}
-
-.bg4
-{
-    height: 100%;
-    background-image: url(../assets/images/liz-weddon-598028-unsplash.jpg);
-}
-
 .home-container
 {
-    height: 600px;
+    height: 200px;
     background-color: black;
+    margin-bottom: 600px;
 }
 
 .about-container
 {
-    height: 600px;;
+    height: 200px;
     background-color: black;
+    margin-bottom: 600px;
 }
 
 .projects-container
 {
-    height: 600px;
+    height: 200px;
     background-color: black;
+    margin-bottom: 600px;
 }
 
 a

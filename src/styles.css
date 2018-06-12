@@ -6,6 +6,12 @@ html, body
     padding: 0;
 }
 
+.background
+{
+    height: 100%;
+    background-image: url(assets/images/liz-weddon-598028-unsplash.jpg);
+}
+
 .parallax
 {
     background-attachment: fixed;
