@@ -20,11 +20,11 @@ export class AppComponent implements AfterViewInit {
 
   @HostListener("window:scroll", [])
     onWindowScroll() {
-      if(window.scrollY > this.fixedHeader.nativeElement.offsetTop)
+      if(window.scrollY > this.cachedOffset)
       {
         this.headerStick = true;
       }
-      if(window.scrollY < this.cachedOffset)
+      else
       {
         this.headerStick = false;
       }
