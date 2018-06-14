@@ -2,9 +2,15 @@
 {
     height: 100%;
     width: 100%;
-    margin: 0 auto;
     color: white;
     text-align: center;
+    opacity: 0;
+    transition: 1s ease-in all;
+}
+
+.fade-in
+{
+    opacity: 1;
 }
 
 .link-container
@@ -18,17 +24,14 @@
 .fixed-container
 {
     width: 100%;
-    position: fixed;
-    left: 50%;
-    margin-left: -50%;
-    height: 100px;
-    top: 0;
-    background-color: lightsteelblue;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .content-container
 {
-    margin-top: 100px;
     height: 100%;
 }
 
@@ -37,13 +40,13 @@
     margin: 0;
 }
 
-.anchor 
+/* .anchor 
 {
     display: block;
     position: relative;
     top: -100px;
     visibility: hidden;
-}
+} */
 
 .home-container
 {
