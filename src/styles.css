@@ -5,10 +5,11 @@ html, body
     width: 100%;
     margin: 0;
     padding: 0;
+    background: black;
 }
 
-html
+/* html
 {
     background: url(assets/images/liz-weddon-598028-unsplash.jpg) no-repeat center center fixed;
     background-size: cover;
-}
+} */

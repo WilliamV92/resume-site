@@ -30,6 +30,7 @@
 
 .fixed-header
 {
+    height: 120px;
     transition: 0.5s ease-in all;
 }
 
@@ -51,42 +52,60 @@
     margin: 0;
 }
 
-/* .anchor 
+.anchor 
 {
     display: block;
     position: relative;
-    top: -100px;
+    top: -120px;
     visibility: hidden;
-} */
+}
 
 .home-container
 {
-    height: 200px;
-    background-color: black;
-    margin-bottom: 600px;
+    height: 600px;
+    background-color: #eee;
 }
 
 .about-container
 {
-    height: 200px;
-    background-color: black;
-    margin-bottom: 600px;
+    height: 600px;
+    background-color: #3295be;
 }
 
 .projects-container
 {
-    height: 200px;
-    background-color: black;
-    margin-bottom: 600px;
+    height: 600px;
+    background-color: #eee;
 }
 
-a
+.bg-image
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../assets/images/liz-weddon-598028-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.link-style
 {
     text-decoration: none;
-    color: white;
+    color: black;
+    background: white;
+    height: 50px;
+    width: 100px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.25s ease-in all;
 }
 
-.link-container a:hover
+.link-style:hover
 {
-    color: red;
+    box-shadow: 0px 0px 20px 0px rgba(255,255,255,1);
 }
