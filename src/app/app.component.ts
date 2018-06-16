@@ -13,25 +13,5 @@ export class AppComponent implements AfterViewInit {
   cachedOffset: number = 0;
   
   ngAfterViewInit(): void {
-    // document.querySelector(".main-container").classList.add("fade-in");
-    this.fadeIn = true;
-    this.cachedOffset = this.fixedHeader.nativeElement.offsetTop;
-  }
-
-  @HostListener("window:scroll", [])
-  onWindowScroll() {
-    if(window.scrollY > this.cachedOffset)
-    {
-      this.headerStick = true;
-    }
-    else
-    {
-      this.headerStick = false;
-    }
-  }
-
-  @HostListener("window:resize", [])
-  onWindowResize() {
-    this.cachedOffset = this.fixedHeader.nativeElement.offsetTop;
   }
 }
