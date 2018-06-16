@@ -9,14 +9,14 @@
                 <a class="link-style" routerLink='/home'>Home</a>
             </nav>
             <nav>
-                <a class="link-style" routerLink='/about' href="#about">About Me</a>
+                <a class="link-style" routerLink='/about'>About Me</a>
             </nav>
             <nav>
-                <a class="link-style" routerLink='/projects' href="#projects">Projects</a>
+                <a class="link-style" routerLink='/projects'>Projects</a>
             </nav>
         </div>
     </div>
-    <div class="content-container">
-        <router-outlet></router-outlet>
+    <div class="content-container" [@animRoutes]="getPage(appOutlet)">
+        <router-outlet class="router" #appOutlet="outlet"></router-outlet>
     </div>
 </div>
