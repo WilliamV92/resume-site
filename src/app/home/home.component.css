@@ -1,4 +1,15 @@
 .home-container
 {
-    background-color: black;
+    background-image: url(../../assets/images/architecture-black-and-white-buildings-804915.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+p
+{
+    margin: 0;
+    padding-top: 10px;
 }

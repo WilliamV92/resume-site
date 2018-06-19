@@ -1,4 +1,14 @@
 .projects
 {
-    background-color: black;
+    background-image: url(../../assets/images/andrew-gloor-576199-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+h1
+{
+    margin: 0;
 }
