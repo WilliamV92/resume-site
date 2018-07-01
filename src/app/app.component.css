@@ -64,7 +64,10 @@
     transition: 0.25s ease-in all;
 }
 
-.link-style:hover
+@media (min-width: 1024px)
 {
-    box-shadow: 0px 0px 20px 0px rgba(255,255,255,1);
+    .link-style:hover
+    {
+        box-shadow: 0px 0px 20px 0px rgba(255,255,255,1);
+    }
 }
